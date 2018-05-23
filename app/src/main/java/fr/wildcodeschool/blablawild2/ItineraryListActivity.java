@@ -39,7 +39,7 @@ public class ItineraryListActivity extends AppCompatActivity {
         listItineraries.setAdapter(adapter);
 
         // TODO : préciser le type de layout de la liste
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        RecyclerView.LayoutManager layoutManagegit r = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         listItineraries.setLayoutManager(layoutManager);
 
         listItineraries.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), listItineraries, new RecyclerTouchListener.ClickListener() {
